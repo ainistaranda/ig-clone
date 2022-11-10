@@ -2,7 +2,6 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     feed: {
-      marginTop: 52,
         flex: 1,
         backgroundColor: 'white',
     },
@@ -10,9 +9,8 @@ const styles = StyleSheet.create({
       marginVertical: 20,
     },
     image: {
-      flex: 1,
-      aspectRatio: 1,
       width: '100%',
+      height: 320
     },
     description: {
       margin: 16,
